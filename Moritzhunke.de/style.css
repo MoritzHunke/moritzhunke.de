@@ -159,7 +159,7 @@ h3 {
   align-items: center;
 }
 
-.content-wrapper{
+.content-wrapper {
   border: 1px solid red;
   margin: 0 auto;
   width: 100vw;
@@ -171,10 +171,9 @@ h3 {
   justify-content: center;
 }
 
-.dummy{
+.dummy {
   width: 40vw;
   height: auto;
   margin: 0 auto;
   border: 1px solid blue;
-
 }
