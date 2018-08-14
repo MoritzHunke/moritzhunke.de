@@ -64,7 +64,7 @@ h1 {
     text-align: center;
     font-size: 50px;
     color: white;
-    padding: 100px 0px 0px 0px;
+    margin-top: -10px;
 }
 
 h2 {
@@ -91,7 +91,14 @@ h3 {
     top: 2vh;
     left: 2vw;
 }
-
+#gesicht{
+	height: 300px;
+	width: auto;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	padding-top: 30px;
+}
 
 #down {
     height: 60px;
