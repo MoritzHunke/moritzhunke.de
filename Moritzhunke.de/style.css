@@ -59,21 +59,25 @@ body{
 
 h1 {
     text-align: center;
-    font-family: 'Roboto', sans-serif;
     font-size: 50px;
     color: white;
     padding: 100px 0px 0px 0px;
 }
 
 h2 {
-    text-align: center;
-
+    text-align: center;‚
     font-weight: 200;
     font-size: 30px;
     color: white;
     padding-top: 600px;
 }
-
+h3 {
+		text-align: center;
+		font-weight: 200;
+		font-size: 24px;
+    color: white;
+		padding: 0 25vw 0 25vw;
+}
 .texttop {
     color: white;
     font-weight: 100;
