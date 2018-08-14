@@ -151,8 +151,8 @@ h3 {
   height: 100vw;
   border: 1px solid green;
   display: flex;
-justify-content: center;
-align-items: center; 
+  justify-content: center;
+  align-items: center; 
 }
 
 .content-wrapper{
