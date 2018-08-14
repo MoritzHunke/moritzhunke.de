@@ -1,2 +1,0 @@
-# moritzhunke.de
-Meine Seite
