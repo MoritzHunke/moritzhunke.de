@@ -147,7 +147,6 @@ h3 {
 #content {
   width: 100vw;
   height: 100vw;
-  border: 1px solid green;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -160,7 +159,6 @@ h3 {
 }
 
 .content-wrapper {
-  border: 1px solid red;
   margin: 0 auto;
   width: 100vw;
   display: -webkit-box;
@@ -170,10 +168,10 @@ h3 {
   -ms-flex-pack: center;
   justify-content: center;
 }
+.content-wrapper img {
+  height: auto;
+}
 
 .dummy {
-  width: 40%;
-  height: auto;
   margin: 0 auto;
-  border: 1px solid blue;
 }
