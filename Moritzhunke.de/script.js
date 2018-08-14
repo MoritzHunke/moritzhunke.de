@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('.wrapper').fadeIn(2000);
-    $('.loader').fadeOut(2500);
+    $('.loader').fadeOut(2000);
 
     $("a").on('click', function(event) {
 
