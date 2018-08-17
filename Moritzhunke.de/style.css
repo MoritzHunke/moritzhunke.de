@@ -67,7 +67,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 h1 {
@@ -82,7 +82,7 @@ h2 {
   ‚ font-weight: 200;
   font-size: 30px;
   color: white;
-  padding-top: 300px;
+  padding-top: 200px;
 }
 
 h3 {
@@ -136,6 +136,18 @@ h3 {
   animation-iteration-count: infinite;
 }
 
+#up {
+  height: 60px;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  margin-right: 0 auto;
+  padding-bottom: 3vh;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+  animation-iteration-count: infinite;
+}
+
 @keyframes bounce {
   from {
     transform: translate3d(0, 0, 0);
@@ -146,8 +158,8 @@ h3 {
 }
 
 #content {
-  width: 100vw;
-  height: 100vw;
+  width: 100v;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -161,7 +173,7 @@ h3 {
 
 .content-wrapper {
   margin: 0 auto;
-  width: 100vw;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -169,11 +181,11 @@ h3 {
   -ms-flex-pack: center;
   justify-content: center;
 }
+
 .content-wrapper img {
   width: 40vw;
   height: auto;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .dummy {
