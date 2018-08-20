@@ -39,14 +39,11 @@ table {
 Global
 =============================================================*/
 
-
-
 /*============================================================
-Main css
+Header
 =============================================================*/
-.content-wrapper {
 
-}
+.content-wrapper {}
 
 .logo {
   float: right;
@@ -69,9 +66,11 @@ Main css
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
 .quote {
   padding: 2vh 0 0 0;
 }
+
 hr {
   display: block;
   height: 1px;
@@ -80,12 +79,14 @@ hr {
   border-top: 1px solid red;
   margin: 5vh 0 0 0;
 }
+
 h1 {
   font-family: 'Roboto', sans-serif;
   color: white;
   font-weight: 100;
   font-size: 35px;
 }
+
 h2 {
   font-family: 'EB Garamond', serif;
   color: white;
@@ -98,7 +99,16 @@ h3 {
   font-size: 20px;
   font-style: italic;
 }
+
 h3 p {
   float: right;
   padding: 2.5vh 20vw 0 0;
+}
+
+/*============================================================
+Kacheln
+=============================================================*/
+
+.kacheln {
+  width: 100vw;
 }
