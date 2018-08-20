@@ -45,5 +45,60 @@ Global
 Main css
 =============================================================*/
 .content-wrapper {
-  
+
+}
+
+.logo {
+  float: right;
+  width: 200px;
+  height: 200px;
+  padding: 2vh 2vw 0 0;
+}
+
+.header {
+  width: 100vw;
+  height: 75vh;
+  background-color: #111111;
+}
+
+.text-wrapper {
+  padding: 0 0 0 10vw;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.quote {
+  padding: 2vh 0 0 0;
+}
+hr {
+  display: block;
+  height: 1px;
+  width: 20vw;
+  border: 0;
+  border-top: 1px solid red;
+  margin: 5vh 0 0 0;
+}
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: 100;
+  font-size: 35px;
+}
+h2 {
+  font-family: 'EB Garamond', serif;
+  color: white;
+  font-size: 50px;
+}
+
+h3 {
+  font-family: 'EB Garamond', serif;
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+}
+h3 p {
+  float: right;
+  padding: 2.5vh 20vw 0 0;
 }
