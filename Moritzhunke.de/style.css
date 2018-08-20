@@ -107,11 +107,11 @@ h2 {
 
 
 h2 p {
-  float: right;
   font-family: 'EB Garamond', serif;
   color: white;
   font-size: 20px;
   font-style: italic;
+  text-align: right;
 }
 
 /*============================================================
