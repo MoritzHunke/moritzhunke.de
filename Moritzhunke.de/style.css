@@ -87,19 +87,16 @@ Header
 	transform: translate(-50%, -50%)
 }
 .backgroundLogo {
-	border: 2px solid grey;
 	position: relative;
 	width: 130px;
 	height: 130px;
 	background-color: grey;
-	/*border: 3px solid white;*/
+	border: 3px solid white;
 	border-radius: 100%;
 	margin:1vh 1vw 0 0;
 	float: right;
 
 }
-
-
 
 .header {
   width: 100vw;
@@ -140,7 +137,7 @@ h1 {
 h2 {
   font-family: 'EB Garamond', serif;
   color: white;
-  font-size: 35px;
+  font-size: 32px;
 	line-height: 50px;
 }
 
