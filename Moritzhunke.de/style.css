@@ -62,8 +62,8 @@ Header
 
 .logo {
   float: right;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   padding: 2vh 2vw 0 0;
 }
 
@@ -107,6 +107,7 @@ h2 {
   font-family: 'EB Garamond', serif;
   color: white;
   font-size: 35px;
+	line-height: 50px;
 }
 
 
