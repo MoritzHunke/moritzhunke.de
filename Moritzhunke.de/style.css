@@ -81,7 +81,7 @@ Header
 .logo img {
 	width: 100px;
 	position: absolute;
-	top: 50%;
+	top: 45%;
 	left: 50%;
 	margin-right: -50%;
 	transform: translate(-50%, -50%)
@@ -92,7 +92,7 @@ Header
 	width: 130px;
 	height: 130px;
 	background-color: grey;
-	/*border: 3px solid white;*/
+	border: 3px solid white;
 	border-radius: 100%;
 	margin:1vh 1vw 0 0;
 	float: right;
@@ -140,7 +140,7 @@ h1 {
 h2 {
   font-family: 'EB Garamond', serif;
   color: white;
-  font-size: 35px;
+  font-size: 32px;
 	line-height: 50px;
 }
 
