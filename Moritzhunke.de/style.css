@@ -90,12 +90,15 @@ Header
 	position: relative;
 	width: 130px;
 	height: 130px;
-	background-color: grey;
-	border: 3px solid white;
-	border-radius: 100%;
+	background: -moz-radial-gradient(center, ellipse cover, rgba(94,94,94,1) 0%, rgba(47,47,47,1) 42%, rgba(17,17,17,1) 69%); /* ff3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(94,94,94,1)), color-stop(42%, rgba(47,47,47,1)), color-stop(69%, rgba(17,17,17,1))); /* safari4+,chrome */
+  background:-webkit-radial-gradient(center, ellipse cover, rgba(94,94,94,1) 0%, rgba(47,47,47,1) 42%, rgba(17,17,17,1) 69%); /* safari5.1+,chrome10+ */
+  background: -o-radial-gradient(center, ellipse cover, rgba(94,94,94,1) 0%, rgba(47,47,47,1) 42%, rgba(17,17,17,1) 69%); /* opera 11.10+ */
+  background: -ms-radial-gradient(center, ellipse cover, rgba(94,94,94,1) 0%, rgba(47,47,47,1) 42%, rgba(17,17,17,1) 69%); /* ie10+ */
+  background:radial-gradient(ellipse at center, rgba(94,94,94,1) 0%, rgba(47,47,47,1) 42%, rgba(17,17,17,1) 69%); /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5E5E5E', endColorstr='#111111',GradientType=1 ); /* ie6-9 */ 
 	margin:1vh 1vw 0 0;
 	float: right;
-
 }
 
 .header {
