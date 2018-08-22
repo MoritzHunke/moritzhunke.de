@@ -71,6 +71,8 @@ Header
   padding: 2vh 2vw 0 0;
 }
 
+
+
 .header {
   width: 100vw;
   height: 85vh;
@@ -153,10 +155,20 @@ Portfolio
 }
 
 .portfolio-content {
-	margin: 10vh 0 0 15vw;
+	margin: 15vh 0 0 15vw;
 	width: 40vw;
 	float: left;
 }
+
+.content-wrapper-img {
+	margin: 0 auto;
+	width: 80%;
+}
+
+.content-wrapper-img img {
+	width: 100%
+}
+
 .portfolio-text {
 	width: 25vw;
 	margin: 10vh 0 0 0;
