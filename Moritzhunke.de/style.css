@@ -50,13 +50,17 @@ html {
 	overflow-x: hidden;
 }
 body {
-  background-color: black;
+  background-color: #111111;
 }
 /*============================================================
 Header
 =============================================================*/
 
 .content-wrapper {
+
+}
+
+.hero {
 
 }
 
@@ -122,9 +126,132 @@ h2 p {
 svg {
 	vertical-align: top;
 }
+
 /*============================================================
 Kacheln
 =============================================================*/
+
 .grafik-top {
-	border: 1px solid red;
+
 }
+
+/*============================================================
+Portfolio
+=============================================================*/
+
+.portfolio-wrapper {
+	width: 100vw;
+	overflow: hidden;
+}
+
+.portfolio-content {
+	margin: 10vh 0 0 20vw;
+	border: 1px solid red;
+	width: 40vw;
+	float: left;
+}
+.portfolio-text {
+	width: 25vw;
+	margin: 10vh 0 0 0;
+	border: 1px solid green;
+	overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+blbablba
