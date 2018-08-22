@@ -72,16 +72,18 @@ Header
   width: 100px;
   height: 100px;
 	z-index: 1000;
+	margin: 4vh 1vw 0 0;
 }
 .backgroundLogo {
 	position: absolute;
 	top: 0;
 	right: 0;
-	width: 150px;
-	height: 150px;
+	width: 130px;
+	height: 130px;
 	background-color: grey;
 	border: 3px solid white;
 	border-radius: 100%;
+	margin:1vh 1vw 0 0;
 
 }
 
