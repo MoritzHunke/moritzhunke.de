@@ -1,57 +1,50 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+
 body {
-	line-height: 1;
+  line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /*============================================================
 Global
 =============================================================*/
+
 html {
-	overflow-x: hidden;
+  overflow-x: hidden;
 }
+
 body {
   background-color: #111111;
 }
+
 /*============================================================
 Media screen
 =============================================================*/
@@ -60,46 +53,56 @@ Media screen
 Header
 =============================================================*/
 
-.content-wrapper {
+.content-wrapper {}
 
-}
-
-.hero {
-
-}
+.hero {}
 
 .logo {
   width: 100px;
   height: 100px;
-	z-index: 1000;
-	position: absolute;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%)
 }
+
 .logo img {
-	width: 100px;
-	position: absolute;
-	top: 45%;
-	left: 50%;
-	margin-right: -50%;
-	transform: translate(-50%, -50%)
+  width: 100px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
 }
+
 .backgroundLogo {
-	position: relative;
-	width: 130px;
-	height: 130px;
-	background: -moz-radial-gradient(center, ellipse cover, rgba(94,94,94,1) 0%, rgba(47,47,47,1) 42%, rgba(17,17,17,1) 69%); /* ff3.6+ */
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(94,94,94,1)), color-stop(42%, rgba(47,47,47,1)), color-stop(69%, rgba(17,17,17,1))); /* safari4+,chrome */
-  background:-webkit-radial-gradient(center, ellipse cover, rgba(94,94,94,1) 0%, rgba(47,47,47,1) 42%, rgba(17,17,17,1) 69%); /* safari5.1+,chrome10+ */
-  background: -o-radial-gradient(center, ellipse cover, rgba(94,94,94,1) 0%, rgba(47,47,47,1) 42%, rgba(17,17,17,1) 69%); /* opera 11.10+ */
-  background: -ms-radial-gradient(center, ellipse cover, rgba(94,94,94,1) 0%, rgba(47,47,47,1) 42%, rgba(17,17,17,1) 69%); /* ie10+ */
-  background:radial-gradient(ellipse at center, rgba(94,94,94,1) 0%, rgba(47,47,47,1) 42%, rgba(17,17,17,1) 69%); /* w3c */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5E5E5E', endColorstr='#111111',GradientType=1 ); /* ie6-9 */ 
-	margin:1vh 1vw 0 0;
-	float: right;
+  position: relative;
+  width: 130px;
+  height: 130px;
+  margin: 1vh 1vw 0 0;
+  float: right;
+	background: none;
 }
+/* Css aniamtion work in progress
+@keyframes fadeIn {
+	frome {background: none;}
+	to {background: -moz-radial-gradient(center, ellipse cover, rgba(94, 94, 94, 1) 0%, rgba(47, 47, 47, 1) 42%, rgba(17, 17, 17, 1) 69%);}
+}
+
+.backgroundLogo:hover {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  margin: 1vh 1vw 0 0;
+  float: right;
+	background: none;
+	animation-name: fadeIn;
+	animation-duration: 2s;
+}
+*/
+
 
 .header {
   width: 100vw;
@@ -108,8 +111,8 @@ Header
 }
 
 .text-wrapper {
-	width: 50vw;
-  padding: 0 0 0 10vw;
+  width: 45vw;
+  margin: 0 0 0 10vw;
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -141,164 +144,86 @@ h2 {
   font-family: 'EB Garamond', serif;
   color: white;
   font-size: 32px;
-	line-height: 50px;
+  line-height: 50px;
 }
-
 
 h2 p {
   font-family: 'EB Garamond', serif;
   color: white;
   font-size: 20px;
   font-style: italic;
-  text-align: right;
+	float: right;
+
 }
 
 h3 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 25px
+}
+
+h4 {
 	font-family: 'Roboto', sans-serif;
 	color: white;
 	font-weight: 100;
-	font-size: 22px;
-	line-height: 25px
+	font-size: 25px;
+	line-height: 30px
 }
 
 svg {
-	vertical-align: top;
+  vertical-align: top;
 }
 
 /*============================================================
 Kacheln
 =============================================================*/
 
-.grafik-top {
-
-}
+.grafik-top {}
 
 /*============================================================
 Portfolio
 =============================================================*/
 
 .portfolio-wrapper {
-	width: 100vw;
-	overflow: hidden;
+  width: 100vw;
+  overflow: hidden;
+  margin: 15vh 0 15vh 0;
 }
 
 .portfolio-content {
-	margin: 15vh 0 0 15vw;
-	width: 40vw;
-	float: left;
+  margin: 0 0 0 15vw;
+  width: 40vw;
+  float: left;
 }
 
 .content-wrapper-img {
-	margin: 0 auto;
-	width: 80%;
+  margin: 0 auto;
+  width: 80%;
+  padding: 10vh 0 0 0;
 }
 
 .content-wrapper-img img {
-	width: 100%
+  width: 100%
 }
 
 .portfolio-text {
-	width: 25vw;
-	margin: 10vh 0 0 0;
-	padding-left: 5vw;
-	overflow: hidden;
+  width: 30vw;
+  padding: 10vh 0 0 0;
+  overflow: hidden;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-blbablba
+/*============================================================
+Footer
+=============================================================*/
+.footer {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer svg{
+	position: absolute;
+	z-index: -1;
+}
