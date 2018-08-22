@@ -83,7 +83,7 @@ Header
 	right: 0;
 	width: 130px;
 	height: 130px;
-	background-color: grey;
+	background-color: rgba(255, 255, 255, 0.3);
 	border: 3px solid white;
 	border-radius: 100%;
 	margin:1vh 1vw 0 0;
