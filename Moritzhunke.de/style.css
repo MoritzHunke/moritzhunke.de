@@ -74,6 +74,7 @@ Header
 }
 
 .text-wrapper {
+	width: 50vw;
   padding: 0 0 0 10vw;
   position: relative;
   top: 50%;
@@ -105,7 +106,7 @@ h1 {
 h2 {
   font-family: 'EB Garamond', serif;
   color: white;
-  font-size: 50px;
+  font-size: 35px;
 }
 
 
