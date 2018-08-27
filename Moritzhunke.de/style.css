@@ -234,7 +234,7 @@ Media Screens
     line-height: 1;
   }
   hr {
-    width: 20vw;
+    width: 250px;
   }
   .text-wrapper {
     width: 75vw;
@@ -248,7 +248,7 @@ Media Screens
     line-height: 1;
   }
   hr {
-    width: 25vw;
+    width: 225px;
   }
   .text-wrapper {
     width: 75vw;
@@ -260,6 +260,10 @@ Media Screens
   body{
     font-size: 12px;
     line-height: 12px;
+  }
+
+  hr {
+    width: 200px;
   }
 
   .text-wrapper {
@@ -311,7 +315,9 @@ Media Screens
     font-size: 10px;
     line-height: 10px;
   }
-
+  hr {
+    width: 175px;
+  }
   .logo img {
     width: 75px;
     position: absolute;
@@ -370,7 +376,9 @@ Media Screens
     font-size: 8px;
     line-height: 8px;
   }
-
+  hr {
+    width: 150px;
+  }
   .logo img {
     width: 50px;
     position: absolute;
