@@ -5,6 +5,7 @@ Imports
 /*============================================================
 Css refresh
 =============================================================*/
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -43,6 +44,7 @@ table {
 /*============================================================
 Global
 =============================================================*/
+
 html {
   overflow-x: hidden;
 }
@@ -56,13 +58,12 @@ body {
 /*============================================================
 Header
 =============================================================*/
-.fadeIn{
+
+.fadeIn {
   display: none;
 }
 
-.content-wrapper {
-
-}
+.content-wrapper {}
 
 .hero {}
 
@@ -100,8 +101,8 @@ Header
 }
 
 .backgroundLogo:hover {
-  background: rgb(43,43,43);
-  background: radial-gradient(circle, rgba(43,43,43,1) 38%, rgba(17,17,17,0.9556022237996761) 64%);
+  background: rgb(43, 43, 43);
+  background: radial-gradient(circle, rgba(43, 43, 43, 1) 38%, rgba(17, 17, 17, 0.9556022237996761) 64%);
 }
 
 .header {
@@ -152,8 +153,7 @@ h2 p {
   color: white;
   font-size: 0.7em;
   font-style: italic;
-	float: right;
-
+  float: right;
 }
 
 h3 {
@@ -165,11 +165,11 @@ h3 {
 }
 
 h4 {
-	font-family: 'Roboto', sans-serif;
-	color: white;
-	font-weight: 100;
-	font-size: 1.5625;
-	line-height: 1rem;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: 100;
+  font-size: 1.5625;
+  line-height: 1rem;
 }
 
 svg {
@@ -220,23 +220,26 @@ Portfolio
 /*============================================================
 Footer
 =============================================================*/
+
 .footer {
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.footer svg{
-	position: absolute;
-	z-index: -1;
+
+.footer svg {
+  position: absolute;
+  z-index: -1;
 }
+
 /*============================================================
 Media Screens
 =============================================================*/
 
 @media (min-width:1025px) {
-/* big landscape tablets, laptops, and desktops */
-  body{
+  /* big landscape tablets, laptops, and desktops */
+  body {
     font-size: 16px;
     line-height: 1;
   }
@@ -249,8 +252,8 @@ Media Screens
 }
 
 @media (max-width:1025px) {
-/*tablet, landscape iPad, lo-res laptops ands desktops */
-  body{
+  /*tablet, landscape iPad, lo-res laptops ands desktops */
+  body {
     font-size: 14px;
     line-height: 1;
   }
@@ -263,69 +266,58 @@ Media Screens
 }
 
 @media (max-width:961px) {
-/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
-  body{
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  body {
     font-size: 12px;
     line-height: 12px;
   }
-
   hr {
     width: 200px;
   }
-
   h2 {
     font-family: 'EB Garamond', serif;
     color: white;
     font-size: 2em;
     line-height: 2rem;
   }
-
   .text-wrapper {
     width: 70vw;
   }
-
-
   .portfolio-wrapper {
     width: 100vw;
     overflow: hidden;
   }
-
   .portfolio-content {
     width: 100%;
     margin: 0 0 0 0;
   }
-
   .content-wrapper-img {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-
   .smartkey {
     width: 400px;
   }
-
   .content-wrapper-img iframe {
     width: 100%;
     height: 600px;
   }
-
   .portfolio-text {
     width: 100%;
     overflow: hidden;
     text-align: center;
     padding: 10vh 0 0 0;
   }
-
   .portfolio-text h3 {
     padding: 0 20vw 0 20vw;
   }
 }
 
 @media (max-width:640px) {
-/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
-  body{
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  body {
     font-size: 12px;
     line-height: 10px;
   }
@@ -340,53 +332,44 @@ Media Screens
     margin-right: -50%;
     transform: translate(-50%, -50%)
   }
-
   .text-wrapper {
     width: 80vw;
   }
-
-
   .portfolio-wrapper {
     width: 100vw;
     overflow: hidden;
   }
-
   .portfolio-content {
     width: 100%;
     margin: 0 0 0 0;
   }
-
   .content-wrapper-img {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-
   .smartkey {
     width: 400px;
   }
-
   .content-wrapper-img iframe {
     width: 100%;
     height: 600px;
   }
-
   .portfolio-text {
     width: 100%;
     overflow: hidden;
     text-align: center;
     padding: 10vh 0 0 0;
   }
-
   .portfolio-text h3 {
     padding: 0 20vw 0 20vw;
   }
 }
 
 @media only screen and (max-width:639px) {
-/* smartphones, iPhone, portrait 480x320 phones */
-  body{
+  /* smartphones, iPhone, portrait 480x320 phones */
+  body {
     font-size: 8px;
   }
   hr {
@@ -407,46 +390,37 @@ Media Screens
     margin-right: -50%;
     transform: translate(-50%, -50%)
   }
-
   .text-wrapper {
     width: 80vw;
     margin: 0 0 0 5vw;
   }
-
-
   .portfolio-wrapper {
     width: 100vw;
     overflow: hidden;
   }
-
   .portfolio-content {
     width: 100%;
     margin: 0 0 0 0;
   }
-
   .content-wrapper-img {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-
   .smartkey {
     width: 400px;
   }
-
   .content-wrapper-img iframe {
     width: 100%;
     height: 600px;
   }
-
   .portfolio-text {
     width: 100%;
     overflow: hidden;
     text-align: center;
     padding: 10vh 0 0 0;
   }
-
   .portfolio-text h3 {
     padding: 0 20vw 0 20vw;
   }
