@@ -168,8 +168,8 @@ h4 {
   font-family: 'Roboto', sans-serif;
   color: white;
   font-weight: 100;
-  font-size: 1.5625;
-  line-height: 1rem;
+  font-size: 1.5625em;
+  line-height: 2rem;
 }
 
 svg {
@@ -263,6 +263,13 @@ Media Screens
   .text-wrapper {
     width: 50vw;
   }
+  h4 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 100;
+    font-size: 2em;
+    line-height: 1rem;
+  }
 }
 
 @media (max-width:961px) {
@@ -279,6 +286,13 @@ Media Screens
     color: white;
     font-size: 2em;
     line-height: 2rem;
+  }
+  h4 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 100;
+    font-size: 2em;
+    line-height: 1.5rem;
   }
   .text-wrapper {
     width: 70vw;
@@ -323,6 +337,13 @@ Media Screens
   }
   hr {
     width: 175px;
+  }
+  h4 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 100;
+    font-size: 1.5em;
+    line-height: 1rem;
   }
   .logo img {
     width: 75px;
@@ -381,6 +402,13 @@ Media Screens
     font-size: 2em;
     line-height: 1.5rem;
     display: inline-block;
+  }
+  h4 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 100;
+    font-size: 1.5em;
+    line-height: 0.8rem;
   }
   .logo img {
     width: 50px;
