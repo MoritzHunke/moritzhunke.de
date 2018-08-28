@@ -190,14 +190,14 @@ Portfolio
 .portfolio-wrapper {
   width: 100vw;
   overflow: hidden;
-  margin: 15vh 0 15vh 0;
-  opacity: 0;
+  padding: 15vh 0 15vh 0;
 }
 
 .portfolio-content {
   margin: 0 0 0 15vw;
   width: 40vw;
   float: left;
+  opacity: 0;
 }
 
 .content-wrapper-img {
