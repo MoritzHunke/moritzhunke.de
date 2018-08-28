@@ -56,7 +56,13 @@ body {
 /*============================================================
 Header
 =============================================================*/
-.content-wrapper {}
+.fadeIn{
+  display: none;
+}
+
+.content-wrapper {
+
+}
 
 .hero {}
 
@@ -115,7 +121,7 @@ Header
 }
 
 .quote {
-  padding: 2vh 0 0 0;
+  padding: 3vh 0 0 0;
 }
 
 hr {
@@ -185,6 +191,7 @@ Portfolio
   width: 100vw;
   overflow: hidden;
   margin: 15vh 0 15vh 0;
+  opacity: 0;
 }
 
 .portfolio-content {
@@ -237,7 +244,7 @@ Media Screens
     width: 250px;
   }
   .text-wrapper {
-    width: 75vw;
+    width: 50vw;
   }
 }
 
@@ -251,7 +258,7 @@ Media Screens
     width: 225px;
   }
   .text-wrapper {
-    width: 75vw;
+    width: 50vw;
   }
 }
 
@@ -264,6 +271,13 @@ Media Screens
 
   hr {
     width: 200px;
+  }
+
+  h2 {
+    font-family: 'EB Garamond', serif;
+    color: white;
+    font-size: 2em;
+    line-height: 2rem;
   }
 
   .text-wrapper {
@@ -312,7 +326,7 @@ Media Screens
 @media (max-width:640px) {
 /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
   body{
-    font-size: 10px;
+    font-size: 12px;
     line-height: 10px;
   }
   hr {
@@ -370,14 +384,20 @@ Media Screens
   }
 }
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:639px) {
 /* smartphones, iPhone, portrait 480x320 phones */
   body{
     font-size: 8px;
-    line-height: 8px;
   }
   hr {
     width: 150px;
+  }
+  h2 {
+    font-family: 'EB Garamond', serif;
+    color: white;
+    font-size: 2em;
+    line-height: 1.5rem;
+    display: inline-block;
   }
   .logo img {
     width: 50px;
@@ -390,6 +410,7 @@ Media Screens
 
   .text-wrapper {
     width: 80vw;
+    margin: 0 0 0 5vw;
   }
 
 
