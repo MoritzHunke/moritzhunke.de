@@ -172,6 +172,13 @@ h4 {
   line-height: 2rem;
   margin-left: -30vw;
 }
+
+a:visited,a:link,a:active,a{
+color: currentcolor;
+text-decoration: none;
+text-decoration: underline;
+
+}
 svg {
   vertical-align: top;
   box-shadow: 0 30px 20px -20px black;
@@ -202,13 +209,14 @@ Portfolio
 
 .content-wrapper-img {
   margin: 0 auto;
-  width: 80%;
+  width: 380px;
   padding: 10vh 0 0 0;
 }
 
 .content-wrapper-img iframe {
   width: 100%;
   height: 600px;
+  overflow-x:hidden;
 }
 
 .portfolio-text {
@@ -266,7 +274,7 @@ Media Screens
   h4 {
     font-family: 'Roboto', sans-serif;
     color: black;
-    font-weight: 100;
+    font-weight: 200;
     font-size: 2em;
     line-height: 1.5rem;
   }
@@ -290,7 +298,7 @@ Media Screens
   h4 {
     font-family: 'Roboto', sans-serif;
     color: black;
-    font-weight: 100;
+    font-weight: 200;
     font-size: 1.5em;
     line-height: 1.5rem;
   }
@@ -341,7 +349,7 @@ Media Screens
   h4 {
     font-family: 'Roboto', sans-serif;
     color: black;
-    font-weight: 100;
+    font-weight: 200;
     font-size: 1.5em;
     line-height: 1rem;
   }
@@ -406,7 +414,7 @@ Media Screens
   h4 {
     font-family: 'Roboto', sans-serif;
     color: black;
-    font-weight: 100;
+    font-weight: 200;
     font-size: 1.5em;
     line-height: 0.8rem;
   }
